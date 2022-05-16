@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="../styles/indexStyles.css">
+  <link rel="stylesheet" href="../styles/contactStyles.css">
   <div class="navbar">
     <a href="../index.html">Home</a>
     <a href="resume.html">Resume</a>
@@ -11,6 +11,23 @@
   </div>
 </head>
 <body>
-  <h1>contact keenen ereee</h1>
+  <h1>How to Contact me</h1>
+  <h2>By Email</h2>
+  <form action="mailto:testemail@yahoo.com"
+  method="POST"
+  enctype="multipart/form-data"
+  class="input"
+  name="EmailForm">
+   <div>
+      Your Name/Company:<br>
+      <input type="text" size="19" name="Contact-Name"><br><br>
+      an Email I can reply back to:<br>
+      <input type="email" name="Contact-Email"><br><br> 
+      Your message for me:<br> 
+      <textarea name="Contact-Message" rows="12" cols="100">
+      </textarea><br><br> 
+      <button type="submit" value="Submit">Send</button>
+    </div>
+  </form>
 </body>
 </html>
