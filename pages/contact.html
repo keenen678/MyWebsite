@@ -12,22 +12,32 @@
 </head>
 <body>
   <h1>How to Contact me</h1>
-  <h2>By Email</h2>
-  <form action="mailto:testemail@yahoo.com"
-  method="POST"
-  enctype="multipart/form-data"
-  class="input"
-  name="EmailForm">
-   <div>
-      Your Name/Company:<br>
-      <input type="text" size="19" name="Contact-Name"><br><br>
-      an Email I can reply back to:<br>
-      <input type="email" name="Contact-Email"><br><br> 
-      Your message for me:<br> 
-      <textarea name="Contact-Message" rows="12" cols="100">
-      </textarea><br><br> 
-      <button type="submit" value="Submit">Send</button>
+  <h2 class="underline">By Email</h2>
+  <section>
+    <div>
+      <form action="https://formspree.io/f/meqnvvzd" method="POST" id="my-form">
+  
+        <div>
+          <h3>Please Enter your name:</h3>
+          <input type="text" id="firstName" name="firstName">
+        </div>
+  
+        <div>
+          <h3>An Email I can reply to:</h3>
+          <input type="email" id="email" name="email">
+        </div>
+  
+        <div>
+          <h3>Your message for me:</h3>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="button">Send Email</button>
+        </div>
+      </form>
     </div>
-  </form>
+    <div id="status"></div>
+  </section>
 </body>
 </html>
+
