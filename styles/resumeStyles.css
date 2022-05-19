@@ -1,22 +1,23 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #050f1b;
   }
   h1 {
-    color: rgb(86, 86, 182);
+    color: rgb(255, 255, 255);
     text-align: center;
   }
-  p {
-    color: red;
+  hr {
+    background-color:#214370;
+    border: 1px solid #214370;
   }
+
   /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
-    background-color: #333;
+    background-color: rgb(6, 32, 51);
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-  
   /* Style the links inside the navigation bar */
   .navbar a {
     float: left;
@@ -26,16 +27,17 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-right: 1px solid black;
   }
   
   /* Change the color of links on hover */
   .navbar a:hover {
-    background-color: #ddd;
+    background-color: rgb(157, 160, 194);
     color: black;
   }
   
   /* Add a color to the active/current link */
   .navbar a.active {
-    background-color: #04AA6D;
+    background-color: #108057;
     color: white;
   }
