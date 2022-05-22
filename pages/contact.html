@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="../styles/contactStyles.css">
+  <link rel="stylesheet" href="../styles/background.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
   <div class="navbar">
     <a href="../index.html">Home</a>
     <a href="resume.html">Resume</a>
@@ -11,10 +12,11 @@
   </div>
 </head>
 <body>
+  <link rel="stylesheet" href="../styles/contactStyles.css">
   <h1>How to Contact me</h1><hr></hr>
-  <h2 class="email">By Email</h2><h2 class="socialmedia">Social Media</h2>
-  <section>
-    <div>
+  <section class="row">
+    <div class="column">
+      <h2>By Email</h2>
       <form action="https://formspree.io/f/meqnvvzd" method="POST" id="my-form">
         <div>
           <h3>Please Enter your name:</h3>
@@ -33,15 +35,26 @@
         </div>
       </form>
     </div>
+    <div class="column">
+      <h2 class="socialmedia">Social Media</h2>
+      <a href="https://www.instagram.com/keenen678/" target="_blank">
+        <div class="container">
+          <img src="../images/instagram.webp">
+          <div class="middle">
+            <div class="text">My Instagram</div>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/keenen.topple/" target="_blank">
+        <div class="container">
+          <img src="../images/facebook.png">
+          <div class="middle">
+            <div class="text">My Facebook</div>
+          </div>
+        </div>
+      </a>
+    </div>
     <div id="status"></div>
-  </section>
-  <section>
-    <a href="https://www.instagram.com/keenen678/">
-      <img class="instagram" alt="Qries" src="../images/instagram.webp" width="350" height="170">
-    </a>
-    <a href="https://www.facebook.com/keenen.topple/" target="_blank">
-      <img class="facebook" alt="Qries" src="../images/facebook.png" width="350" height="170">
-    </a>
   </section>
 </body>
 </html>
